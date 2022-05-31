@@ -6,11 +6,11 @@ for k in range(3,20):
         g=(x)*(x-n)
         h = g-f
 
-        sol = solve(h==0,x)
+        sol = solve(h==0, x)
         sol = sol[0].rhs()
         try:
             if sol.n() == int(sol.n()):
-                print(sol, n,k)
+                print(n, k, sol)
                 break
         except:
             pass
