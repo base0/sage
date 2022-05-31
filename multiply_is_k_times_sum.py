@@ -1,7 +1,7 @@
 var('x k')
 
-for k in range(3,1000):
-    for n in range(3,1000):
+for k in range(3,20):
+    for n in range(3,30):
         f=k*(x+(x-n))
         g=(x)*(x-n)
         h = g-f
